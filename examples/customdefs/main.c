@@ -4,5 +4,5 @@
 
 int main()
 {
-	printf("\nYou have entered: %s", pi);
+	snprintf(output_pi_length, pi_length, "%f", pi);
 }
